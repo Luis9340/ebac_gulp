@@ -1,0 +1,19 @@
+@use 'variaveis';
+
+body {
+    background-color: variaveis.$corPricipal;
+    color: variaveis.$corFonte;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: variaveis.$corSecundaria;
+    width: 63.9375rem;
+    margin: 0 auto;
+    img {
+        margin-bottom: 1rem;
+        width: 50rem;
+    }
+}
